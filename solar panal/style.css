@@ -1,0 +1,747 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #251c1c;
+    width: 100vmax;
+    height: 100vmax;
+}
+
+button:hover {
+    background-color: #fcfcfc;
+    color: #df8816;
+    border: #4e4d06;
+}
+
+a:hover {
+    color: #df8816;
+}
+
+/* header  styles */
+.logoimg {
+    width: 7vmax;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+header {
+    background-color: transparent;
+    height: 6vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.navitem {
+    width: 45vw;
+    cursor: pointer;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    background-color: #a54316;
+    border-radius: 10px;
+    padding: 15px 15px;
+    color: aliceblue;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* header  styles end*/
+/* first inteo start */
+.intro {
+    background-color: transparent;
+    margin-top: 10vh;
+    height: 10vh;
+    width: 80vw;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12vw;
+    margin-bottom: 30vh;
+    padding: 10px;
+    align-items: center;
+    color: aliceblue;
+}
+
+span {
+    color: #a54316;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.h1 {
+    margin: 3vmax;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* first inteo end */
+/* solar img  */
+.solarimg {
+    width: 100vmax;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* solar img end */
+
+.heading {
+    height: 4vh;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+.cardmain {
+    height: 40vmax;
+    width: 100vmax;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.card {
+    border-radius: 20px;
+    width: 20vmax;
+    height: 40;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    color: white;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cardimg {
+    width: 5vw;
+    width: 5vh;
+    border-radius: 50%;
+    border: 2px solid salmon;
+    background-color: black;
+}
+
+.aboutusintro {
+    margin-top: 10vh;
+    width: 100vmax;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
+.intro2 {
+    height: 50vmax;
+    width: 30vH;
+    padding-left: 10vw;
+    width: 40vw;
+    font-size: 1.5rem;
+}
+
+.intro2 p #one {
+    font-size: 1.5vw;
+}
+
+#two {
+    position: absolute;
+    left: 60vw;
+    height: 60vh;
+    bottom: -150vh;
+
+}
+
+.mainorofit {
+    width: 100vw;
+    height: 40vh;
+}
+
+.one {
+    height: 10vh;
+    width: 50vmax;
+    background: linear-gradient(270deg, #ee9a23, #ee802300);
+
+}
+
+.one h1 {
+    display: block;
+    color: #fcfcfc;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 35vmax;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+
+}
+
+.two h1 {
+    display: block;
+    color: #fcfcfc;
+    margin-block-start: 1.25em;
+    margin-block-end: 1.25em;
+    margin-inline-start: 27vmax;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+
+}
+
+.three h1 {
+    display: block;
+    color: #fcfcfc;
+    margin-block-start: 1.30em;
+    margin-block-end: 1.30em;
+    margin-inline-start: 18vmax;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+
+}
+
+
+.two {
+    height: 10vh;
+    width: 40vmax;
+    background: linear-gradient(270deg, #ee9a23, #ee802300);
+    color: aliceblue;
+}
+
+.three {
+    color: aliceblue;
+    height: 10vh;
+    width: 30vW;
+    background: linear-gradient(270deg, #ee9a23, #ee802300);
+}
+
+.textintro3 {
+    font-size: 1.5rem;
+    height: 40vh;
+    width: 50vw;
+    position: relative;
+    top: -16vw;
+    left: 45vw;
+    color: aliceblue;
+
+}
+
+/* intro 4 */
+.heading2 {
+    font-size: 2rem;
+    color: aliceblue;
+    height: 10vh;
+    width: 100vw;
+  padding-top: 10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6vh;
+}
+
+.heading2 p {
+    font-size: 1.2rem;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card12 {
+    border-radius: 20px;
+    width: 23vmax;
+    height: 23vmax;
+    background-color: rgb(107, 102, 102);
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    color: white;
+
+
+}
+
+.cardmain2 {
+    height: 100vh;
+    width: 100vmax;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    gap: 5vw;
+    align-items: center;
+    position: relative;
+    top: 10vh;
+    flex-wrap: wrap;
+}
+
+
+
+/* intro 4end */
+/* before and after  */
+.main3 {
+    height: 70vh;
+    width: 100vw;
+    position: relative;
+    top: 10vh;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.HEADING3 {
+    font-size: 1.5rem;
+    display: flex;
+    margin-top: 18vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 10vh;
+    width: 50vw;
+}
+
+.house {
+    position: relative;
+    top: 10vh;
+    height: 50vh;
+    width: 60vw;
+
+}
+
+/* before and after end */
+/* map section  */
+.map {
+    margin-top: 25vh;
+    height: 80vh;
+    width: 100vw;
+    color: #fcfcfc;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.map h1 {
+    margin-left: 32vw;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.map p {
+    margin-left: 29vw;
+}
+
+.mapimg {
+    height: 70vh;
+    width: 100vw;
+    margin-top: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* map section end */
+/* footer start  */
+.bagimg {
+    background-image: url(https://assets-global.website-files.com/63443b2122ba28565c306b60/65d95f169aa219adfebe1c1a_Galbra%2520Gallery%2520Image%25203-p-500.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+    margin-top: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2rem;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.bagimg p {
+    color: white;
+}
+
+#one1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vw;
+    border-radius: 10px;
+}
+
+FOOTER P {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lastline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background-color: #0a0a0a;
+    height: 4VH;
+    width: 100VW;
+}
+
+/* footer ens */
+
+
+@media only screen and (max-width: 450px) {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #251c1c;
+        width: 115vmax;
+        height: 100vmax;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    header {
+        height: 7vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .navitem {
+       width: 60%;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+    }
+
+    header button {
+        display: none;
+    }
+
+    .intro {
+        height: 15vh;
+        width: 80vmax;
+
+
+    }
+
+    span {
+        font-size: 2.5rem;
+
+    }
+
+    .h1 {
+        width: 100%;
+        font-size: 2.5rem;
+        margin: 3vw;
+        font-family: "Baskervville SC", serif;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+
+    .solarimg {
+        width: 100vmax;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #ONE {
+        width: 100VMAX;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .intro2 h1 {
+        width: 100VMAX;
+        font-size: 3rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .intro2 p {
+        width: 100VMAX;
+        font-size: 1.5rem;
+    }
+
+    .intro2 span {
+        display: flex;
+        width: 100VMAX;
+        font-size: 1.5rem;
+    }
+
+    .mainorofit {
+        height: 50vmax;
+        width: 115%;
+        margin-top: 60vh;
+    }
+
+    .textintro3 {
+        font-size: 1.5rem;
+        height: 50vh;
+        width: 100vmax;
+        margin-top: 10vh;
+
+
+    }
+
+    .cardmain2 {
+        margin-top: 57vh;
+        flex-direction: column;
+    }
+
+    .heading2 h1 {
+        margin-top: 100vh;
+        width: 100%;
+    }
+
+    .heading2 p {
+        width: 100%;
+        font-size: 1.8rem;
+    }
+
+    .heading2 span {
+        font-size: 3.5rem;
+    }
+
+    .textintro3 h1 span {
+        font-size: 3rem;
+    }
+
+    .textintro3 span {
+        font-size: 1.5rem;
+    }
+
+    .one h1 {
+        display: block;
+        color: #fcfcfc;
+        margin-block-start: 1.33em;
+        margin-block-end: 1.33em;
+        margin-inline-start: 35vmax;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        unicode-bidi: isolate;
+        font-size: 1.2rem;
+    }
+
+    .one {
+        height: 12vh;
+        width: 65%;
+        background: linear-gradient(270deg, #ee9a23, #ee802300);
+
+    }
+
+    .two {
+        height: 12vh;
+        width: 50%;
+        background: linear-gradient(270deg, #ee9a23, #ee802300);
+
+    }
+
+    .three {
+        height: 10vh;
+        width: 35%;
+        background: linear-gradient(270deg, #ee9a23, #ee802300);
+
+    }
+
+    .two h1 {
+        font-size: 1rem;
+
+    }
+
+    .three h1 {
+        font-size: 1rem;
+
+    }
+
+    #two {
+        margin-top: 20VH;
+        height: 40vh;
+        position: unset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5vh;
+    }
+
+    .HEADING3 {
+        height: 10vh;
+        width: 100vw;
+        margin-top: 10vh;
+    }
+
+    .HEADING3 p {
+        height: 10vh;
+        width: 180vw;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .house {
+        margin-top: 5vh;
+        width: 200vw;
+    }
+
+    .map {
+        width: 150vw;
+    }
+
+    .map p {
+        font-size: 1.8rem;
+        width: 200vw;
+        margin-left: -15vw;
+    }
+
+    .mapimg {
+        width: 150vw;
+    }
+
+    .bagimg {
+        background-image: url(https://assets-global.website-files.com/63443b2122ba28565c306b60/65d95f169aa219adfebe1c16_Galbra%2520Gallery%2520Image%25201-p-500.png);
+        background-size: 100%;
+        width: 250vw;
+        height: 140vh;
+    }
+
+    #ONE1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 250vw;
+    }
+    footer .navitem{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 30vw;
+        height: 30vh;
+    }
+    .lastline{
+        width: 250vw;
+        background-color: #050505;
+        
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    cursor: pointer;
+    margin: 20px;
+    display: none;
+}
+
+.menu-icon .bar {
+    width: 100%;
+    height: 4px;
+    background-color: #333;
+    margin: 4px 0;
+    transition: all 0.3s ease;
+}
+
+#menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#menu-toggle:checked+.menu-icon+#menu {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
